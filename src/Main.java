@@ -22,5 +22,6 @@ void main() {
         } else {
             System.out.println("Invalid operations");
         }
+        //dodajemy kom
     }
 }

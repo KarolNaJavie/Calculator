@@ -10,18 +10,19 @@ void main() {
         System.out.println("{1-Add; 2-Subtract; 3-Multiply; 4-Divide; 5-Cancel operation and close program;}");
         int choice = scanner.nextInt();
         if (choice == 1) {
+            //cos tutaj
             System.out.println(Calculable.adding(a, b));
         } else if (choice == 2) {
             System.out.println(Calculable.subtracting(a, b));
         } else if (choice == 3) {
             System.out.println(Calculable.multiplying(a, b));
         } else if (choice == 4) {
+            //cos tutaj
             System.out.println(Calculable.diving(a, b));
         } else if (choice == 5) {
             calculating = false;
         } else {
             System.out.println("Invalid operations");
         }
-        //dodajemy kom
     }
 }

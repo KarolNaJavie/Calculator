@@ -12,7 +12,6 @@ void main() {
         if (choice == 1) {
             //cos tutaj
             System.out.println(Calculable.adding(a, b));
-            System.out.println("dziekuje za skorzystanie z uslug");
         } else if (choice == 2) {
             System.out.println(Calculable.subtracting(a, b));
         } else if (choice == 3) {
